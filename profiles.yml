@@ -1,0 +1,9 @@
+soccer_538:
+    target: dev
+    outputs:
+        dev:
+          type: databricks
+          schema: default
+          host: "{{ env_var('databricks_host') }}"
+          http_path: https://adb-7756453029889101.1.azuredatabricks.net/explore/data/hive_metastore
+          token: "{{ env_var('databricks_token') }}"
