@@ -5,5 +5,5 @@ soccer_538:
           type: databricks
           schema: default
           host: "{{ env_var('databricks_host') }}"
-          http_path: https://adb-7756453029889101.1.azuredatabricks.net/explore/data/hive_metastore
+          http_path: sql/protocolv1/o/7756453029889101/1002-073501-epe3g031
           token: "{{ env_var('databricks_token') }}"
