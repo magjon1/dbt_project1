@@ -1,2 +1,2 @@
 SELECT * 
-FROM default.stg_football_rankings
+FROM default.stg_fotball_rankings

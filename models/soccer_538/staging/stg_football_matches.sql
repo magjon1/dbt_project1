@@ -1,2 +1,2 @@
 SELECT * 
-FROM default.stg_football_matches
+FROM default.stg_fotball_matches
